@@ -6,6 +6,11 @@
   tagline = ""
 }
 
+\paper {
+  #(set-paper-size "a4")
+  bottom-margin = 20\mm
+}
+
 \score {
   \layout {
     indent = 0
@@ -18,6 +23,8 @@
       \clef treble
       \key e \major
       \time 6/8
+
+      % First page
 
       <dis' dis'>\fermata <e e'>\fermata <fis fis'>\fermata \bar "||"
       b8 b e, r gis e |
@@ -52,12 +59,33 @@
         <<
           \relative {e''4.} \\
           \relative {gis'16 a gis a gis a <gis e'>8 <gis e'> <gis e'>}
-        >>
+        >> |
       }
+
+      % Second page
+
+      e,8 e16 fis8 fis16 gis8 gis16 fis8 fis16 |
+      e8 e16 fis8 fis16 b8 a gis16 a16 |
+      gis a gis a gis gis' e4 gis16 fis |
+      <<
+        \relative {e''4.} \\
+        \relative {gis'16 a gis a gis a <gis e'>8 <gis e'> <gis e'>}
+      >> |
+      <<
+        \relative {gis'16 a gis a gis a gis4.} \\
+        \relative {<e' cis>4. <e cis>}
+      >> |
+
+      b,8 b16 a e8 gis gis16 a e8 |
+      fis fis16 a e8 gis fis e |
+      gis b a b gis e |
+      gis fis a e e dis16 e |
     }
     \new Staff \relative {
       \clef bass
       \key e \major
+
+      % First page
 
       r2. \bar "||"
       cis4. e, |
@@ -82,8 +110,8 @@
 
       cis8 b'4 e,,8 gis'4 |
       fis8 a4 a,8 e' b'16 cis |
-      cis4. e, |
-      fis a, |
+      cis,4. e, |
+      fis' a, |
 
       <<
         \relative {cis'16 gis cis gis cis gis b fis b fis b fis} \\
@@ -92,15 +120,40 @@
       <<
         \relative {e16 b e b e b a' e8 a8.} \\
         \relative {e,4. a}
-      >>
+      >> |
       <<
         \relative {cis'16 gis cis gis8. b16 fis b fis b fis} \\
         \relative {cis4. b}
-      >>
+      >> |
       <<
         \relative {e16 b e b e b e b e b e b} \\
         \relative {e,4. e}
       >>
+
+      % Second page
+
+      <<
+        \relative {cis'16 gis cis gis cis gis b fis b fis b fis} \\
+        \relative {cis4. b}
+      >> |
+      <<
+        \relative {e16 b e b e b a' e8 a8.} \\
+        \relative {e,4. a}
+      >> |
+      <<
+        \relative {cis'16 gis cis gis8. b16 fis b fis b fis} \\
+        \relative {cis4. b}
+      >> |
+      <<
+        \relative {e16 b e b e b e b e b e b} \\
+        \relative {e,4. e}
+      >> |
+      <cis, gis' cis>4. <cis gis' cis> |
+
+      cis' e, |
+      fis' a,8 e'4 |
+      cis4 e8 gis r4 |
+      fis4. a, |
     }
   >>
 }
