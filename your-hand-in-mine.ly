@@ -98,6 +98,21 @@
       fis dis fis e fis dis r dis fis e fis dis |
       b16 cis e dis cis b << {e4 e8} \\ {r16 gis, b b b gis} >> |
       gis' e dis b dis e r e dis b dis e |
+
+      % Third page
+
+      <e gis> e gis e gis e b' e, fis e fis e |
+      fis dis fis e fis dis r fis fis e fis dis |
+      cis cis e dis cis b << {e4 e8} \\ {r16 gis, b b b gis} >> |
+      fis' e dis b dis e r e dis b dis e |
+
+      \repeat volta 2 {
+        <e gis> e gis e gis e b' e, fis e fis e |
+        fis dis fis e fis dis r dis fis e fis dis |
+        cis cis e dis cis b << {e4 e8} \\ {r16 gis, b b b gis} >> |
+        fis' e dis b dis e r e dis b dis e |
+      }
+
     }
     \new Staff \relative {
       \clef bass
@@ -190,6 +205,30 @@
       b' b |
       a e |
       b' b |
+
+      % Third page
+
+      cis e, |
+      b' b |
+      a e |
+      b' b |
+
+      <<
+        {<gis' cis>16 gis cis gis cis gis <b, e> b e b e b} \\
+        {cis4. e,} |
+      >>
+      <<
+        {<fis' b>16 fis b fis b fis <fis b> fis b fis b fis} \\
+        {b,4. b} |
+      >>
+      <<
+        {<e a>16 e a e a e <b e> b e b e b} \\
+        {a4. e} |
+      >>
+      <<
+        {<fis' b>16 fis b fis b fis <fis b> fis b fis b fis} \\
+        {b,4. b} |
+      >>
     }
   >>
 }
