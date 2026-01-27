@@ -145,6 +145,16 @@
       r e e e r <e e'> r <e e'> <e e'> <e e'> <e e'> <e e'> |
       r <e e'> <e e'> <e e'> r <e e'> r <e e'> <e e'> <e e'> <e e'> <e e'> |
       r <e e'> <e e'> <e e'> r <e e'> r <e e'> <e e'> <e e'> <e e'> <e e'> |
+
+      e4. dis |
+      b r8 cis16 b8. |
+      gis4. a |
+      gis4. gis8 cis b |
+
+      e4. fis |
+      gis r8 a16 gis8. |
+      e4. r8 a16 gis8. |
+      e2. |
     }
     \new Staff \relative {
       \clef bass
@@ -314,6 +324,16 @@
       cis4 e8 b4 fis'8 |
       e,4 gis'8 gis4. |
       cis,4 e8 b4 fis'8 |
+      e,4 e'8 e4. |
+
+      cis4 e8 b4 fis'8 |
+      e,4 gis'8 gis4 e8 |
+      cis4 e8 b4 fis'8 |
+      e,4 e'8 e4. |
+
+      cis4 e8 b4 fis'8 |
+      e,4 gis'8 gis4 e8 |
+      cis4 e8 b4 fis'8 |
       e,4 e'8 e4. |
     }
   >>
