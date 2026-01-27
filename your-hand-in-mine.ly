@@ -155,6 +155,16 @@
       gis r8 a16 gis8. |
       e4. r8 a16 gis8. |
       e2. |
+
+      cis'8. b cis a |
+      a8 gis r gis4. |
+      a8. gis a gis |
+      e2. |
+
+      b'16 b32 b b16 a gis8 r16 b32 b b16 a gis8 |
+      r16 b32 b b16 a gis8 gis a <fis b> |
+      r16 b32 b b16 a gis8 r16 b32 b b16 a gis8 |
+      r16 b32 b b16 a gis8 gis a b |
     }
     \new Staff \relative {
       \clef bass
@@ -335,6 +345,16 @@
       e,4 gis'8 gis4 e8 |
       cis4 e8 b4 fis'8 |
       e,4 e'8 e4. |
+
+      cis4 e8 dis4 fis8 |
+      e4 gis8 gis4. |
+      cis,4 e8 b4 fis'8 |
+      e,4 e'8 e4. |
+
+      cis4 e8 b4 fis'8 |
+      e4 gis8 gis4 e8 |
+      cis4 e8 b4 fis'8 |
+      e4 gis8 gis4 e8 |
     }
   >>
 }
