@@ -133,6 +133,18 @@
         <cis cis'>8. <b b'>16 <cis cis'>8 <e e'>4. |
         <fis fis'>2. |
       }
+
+      % Fourth page
+
+      <e e'>4 e16 e r e e e r e |
+      r e e e r e r e e e dis dis |
+      r e e e r e r e e e r e |
+      r e e e r e r e e e e e |
+
+      r e e e r e r e e e r e |
+      r e e e r <e e'> r <e e'> <e e'> <e e'> <e e'> <e e'> |
+      r <e e'> <e e'> <e e'> r <e e'> r <e e'> <e e'> <e e'> <e e'> <e e'> |
+      r <e e'> <e e'> <e e'> r <e e'> r <e e'> <e e'> <e e'> <e e'> <e e'> |
     }
     \new Staff \relative {
       \clef bass
@@ -291,6 +303,18 @@
         {<a, cis>16 cis e dis cis b <e, b'> gis b b b gis}
       >> |
       <b fis' b>16 e dis b dis e r e dis b dis e |
+
+      % Fourth page
+
+      cis4 e8 b4 fis'8 |
+      e,4 gis'8 gis4. |
+      cis,4 e8 b4 fis'8 |
+      e,4 e'8 e4. |
+
+      cis4 e8 b4 fis'8 |
+      e,4 gis'8 gis4. |
+      cis,4 e8 b4 fis'8 |
+      e,4 e'8 e4. |
     }
   >>
 }
