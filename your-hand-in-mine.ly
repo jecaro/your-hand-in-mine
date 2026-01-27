@@ -113,6 +113,19 @@
         fis' e dis b dis e r e dis b dis e |
       }
 
+      \repeat volta 2 {
+        cis'8 gis gis gis a b |
+        fis16 dis fis e fis dis r dis fis e fis dis |
+        a'4. e'8 dis dis |
+        dis2. |
+      }
+
+      \repeat volta 2 {
+        gis,16 e gis e gis e gis8 a b |
+        fis16 dis fis e fis dis fis8 a b |
+        cis4. e8 dis dis |
+        b2. |
+      }
     }
     \new Staff \relative {
       \clef bass
@@ -215,20 +228,48 @@
 
       <<
         {<gis' cis>16 gis cis gis cis gis <b, e> b e b e b} \\
-        {cis4. e,} |
-      >>
+        {cis4. e,}
+      >> |
       <<
         {<fis' b>16 fis b fis b fis <fis b> fis b fis b fis} \\
-        {b,4. b} |
-      >>
+        {b,4. b}
+      >> |
       <<
         {<e a>16 e a e a e <b e> b e b e b} \\
-        {a4. e} |
-      >>
+        {a4. e}
+      >> |
       <<
         {<fis' b>16 fis b fis b fis <fis b> fis b fis b fis} \\
-        {b,4. b} |
-      >>
+        {b,4. b}
+      >> |
+
+      <<
+        {cis'4. b} \\
+        {<cis, gis'>16 e gis e gis e <b e> e fis e fis e}
+      >> |
+      <<
+        {b'4. b} \\
+        {<b, fis'>16 dis fis dis fis dis <b fis'> dis fis dis fis dis}
+      >> |
+      <<
+        {a'8 r4 e4.} \\
+        {<a, cis>16 cis e dis cis b <e, b'> gis b b b gis}
+      >> |
+      <b fis' b>16 e dis b dis e r e dis b dis e |
+
+      <<
+        {cis'4. b} \\
+        {<cis, gis'>16 e gis e gis e <b e> e fis e fis e}
+      >> |
+      <<
+        {b'4. b} \\
+        {<b, fis'>16 dis fis dis fis dis <b fis'> dis fis dis fis dis}
+      >> |
+      <<
+        {a'8 r4 e4.} \\
+        {<a, cis>16 cis e dis cis b <e, b'> gis b b b gis}
+      >> |
+      <b fis' b>16 e dis b dis e r e dis b dis e |
     }
   >>
 }
