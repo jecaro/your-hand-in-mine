@@ -165,6 +165,18 @@
       r16 b32 b b16 a gis8 gis a <fis b> |
       r16 b32 b b16 a gis8 r16 b32 b b16 a gis8 |
       r16 b32 b b16 a gis8 gis a b |
+
+      % Fifth page
+
+      cis,4. dis8 e fis |
+      b,16 e <b e b'> <b e b'> <b e b'> <b e b'> <b e b'> <b e a> <b e a> <b e gis> <b e gis>8 |
+      cis4. e4 dis8 |
+      b16 e <b e b'> <b e b'> <b e b'> <b e b'> <b e b'> <b e a> <b e a> <b e gis> <b e gis>8 |
+
+      <e b'>4.\> dis\! |
+      b r8 cis16 b8. |
+      gis4. a |
+      gis4. gis8 a b |
     }
     \new Staff \relative {
       \clef bass
@@ -355,6 +367,30 @@
       e4 gis8 gis4 e8 |
       cis4 e8 b4 fis'8 |
       e4 gis8 gis4 e8 |
+
+      % Fifth page
+
+      <<
+        {<e a>8 r4 <e a>16 e a e a e} \\
+        {a,8 a16 e' a e a,4.}
+      >> |
+      <<
+        {<b e>16 b e b e b <b e> b e b e b} \\
+        {e,4. e}
+      >> |
+      <<
+        {<e' a>8 r4 <e a>16 e a e a e} \\
+        {a,8 a16 e' a e a,4.}
+      >> |
+      <<
+        {<b e>16 b e b e b <b e> b e b e b} \\
+        {e,4. e}
+      >> |
+
+      cis'4 e8 b4 fis'8 |
+      e4 gis8 gis4 e8 |
+      cis4 e8 b4 fis'8 |
+      e4 e,8 e4. |
     }
   >>
 }
