@@ -3,7 +3,7 @@
 \header {
   title = "Your Hand in Mine"
   composer = "Explosions in the Sky"
-  tagline = ""
+  tagline = "Transcribed by Claire (cleiph)"
 }
 
 \paper {
@@ -197,6 +197,17 @@
       b,16 e <b e b'> <b e b'> <b e b'> <b e b'> <b e b'> <b e a> <b e a> <b e gis> <b e gis>8 |
       cis4. e4 dis8 |
       b16 e <b e b'> <b e b'> <b e b'> <b e b'> <b e b'> <b e a> <b e a> <b e gis> <b e gis>8 |
+
+      % Sixth page
+
+      cis4. e8 dis fis |
+      b,16 e <b e b'> <b e b'> <b e b'> <b e b'> <b e b'> <b e a> <b e a> <b e gis> <b e gis>8 |
+      cis4. e4 dis8 |
+      b16 e <b e b'> <b e b'> <b e b'> <b e b'> <b e b'> <b e a> <b e a> <b e gis> <b e gis>8 |
+
+      <b e b'>2. |
+      e16 e' e, e' e, e' e, e' e, e' e, e' |
+      e,_"Fade to end" e' e, e' e, e' e, e' e, e' e, e' |
     }
     \new Staff \relative {
       \clef bass
@@ -443,6 +454,29 @@
         {<b e>16 b e b e b <b e> b e b e b} \\
         {e,4. e}
       >> |
+
+      % Sixth page
+
+      <<
+        {<e' a>8 r4 <e a>16 e a e a e} \\
+        {a,8 a16 e' a e a,4.}
+      >> |
+      <<
+        {<b e>16 b e b e b <b e> b e b e b} \\
+        {e,4. e}
+      >> |
+      <<
+        {<e' a>8 r4 <e a>16 e a e a e} \\
+        {a,8 a16 e' a e a,4.}
+      >> |
+      <<
+        {<b e>16 b e b e b <b e> b e b e b} \\
+        {e,4. e}
+      >> |
+
+      <a e' a>2.~ |
+      <a e' a>2.~ |
+      <a e' a>2.~ |
     }
   >>
 }
