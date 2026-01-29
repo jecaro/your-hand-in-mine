@@ -16,6 +16,10 @@
           lilypond your-hand-in-mine.ly
         '';
 
+        FONTCONFIG_FILE = pkgs.makeFontsConf {
+          fontDirectories = [ pkgs.dejavu_fonts ];
+        };
+
         installPhase = ''
           mkdir -p $out
           cp your-hand-in-mine.pdf $out/
