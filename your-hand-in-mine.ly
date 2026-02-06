@@ -11,6 +11,8 @@
   bottom-margin = 20\mm
 }
 
+\pointAndClickOff
+
 \score {
   \layout {
     indent = 0
