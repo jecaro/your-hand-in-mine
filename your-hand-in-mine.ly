@@ -72,8 +72,8 @@
         {gis,16 a gis a gis a <gis e'>8 <gis e'> <gis e'>}
       >> |
       <<
-        {gis16 a gis a gis a gis4.} \\
-        {<e cis>4. <e cis>}
+        {gis16\> a gis a gis a gis4.\!} \\
+        {<e cis>4.~ <e cis>}
       >> |
 
       b'8 b16 a e8 gis gis16 a e8 |
@@ -94,10 +94,10 @@
       r cis e dis cis b r gis b b b gis |
       r e' dis b dis b r e dis b dis e |
 
-      gis e gis e gis e b' e, gis e gis e |
+      gis e gis e gis e b' e, fis e fis e |
       fis dis fis e fis dis r dis fis e fis dis |
       b16 cis e dis cis b << {e4 e8} \\ {r16 gis, b b b gis} >> |
-      gis' e dis b dis e r e dis b dis e |
+      fis' e dis b dis e r e dis b dis e |
 
       % Third page
 
@@ -132,6 +132,11 @@
         <fis fis'>2. |
         <cis cis'>8. <b b'>16 <cis cis'>8 <e e'>4. |
         <fis fis'>2. |
+
+        <gis gis'>4. <b b'>4 <e, e'>8 |
+        <fis fis'>2. |
+        <b, b'>4 <cis cis'>8 <e e'>4. |
+        <fis fis'>2. |
       }
 
       % Fourth page
@@ -143,7 +148,7 @@
 
       r e e e r e r e e e r e |
       r e e e r <e e'> r <e e'> <e e'> <e e'> <e e'> <e e'> |
-      r <e e'> <e e'> <e e'> r <e e'> r <e e'> <e e'> <e e'> <e e'> <e e'> |
+      r <e e'> <e e'> <e e'> r <e e'> r <e e'> <e e'> <e e'> r <e e'> |
       r <e e'> <e e'> <e e'> r <e e'> r <e e'> <e e'> <e e'> <e e'> <e e'> |
 
       e4. dis |
@@ -189,7 +194,7 @@
       <e a>16 gis e4~ e4. |
 
       b'16 b32 b b16 a16 gis8 r16 b32 b b16 a gis8 |
-      r16 b32 b b16 a gis8 gis a <fis b> |
+      r16 b32 b b16 a gis8 gis a <gis b> |
       r16 b32 b b16 a gis8 r16 b32 b b16 a gis8 |
       r16 b32 b b16 a gis8 gis a b |
 
@@ -276,7 +281,7 @@
         {e16 b e b e b e b e b e b} \\
         {e,4. e}
       >> |
-      <cis gis' cis>4. <cis gis' cis> |
+      <cis~ gis' cis>4. <cis gis' cis> |
 
       cis' e, |
       fis' a,8 e'4 |
@@ -289,7 +294,7 @@
       fis' a, |
 
       b8 e dis a e' dis |
-      b e dis a e' dis |
+      b e dis b e dis |
 
       cis4. e, |
       b' b |
@@ -346,6 +351,20 @@
       <<
         {b'4. b} \\
         {<b, fis'>16 dis fis dis fis dis <b fis'> dis fis dis fis dis}
+      >> |
+      <<
+        {a'8 r4 e4.} \\
+        {<a, cis>16 cis e dis cis b <e, b'> gis b b b gis}
+      >> |
+      <b fis' b>16 e dis b dis e r e dis b dis e |
+
+      <<
+        {<gis cis>16 e gis e gis e <gis b> e a e b' e,} \\
+        {cis4. b}
+      >> |
+      <<
+        {b'4. <fis b>16 dis a' dis, b' dis,} \\
+        {<b fis'>16 dis fis dis fis dis b4.}
       >> |
       <<
         {a'8 r4 e4.} \\
