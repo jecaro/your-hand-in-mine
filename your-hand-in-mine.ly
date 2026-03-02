@@ -119,11 +119,11 @@
         cis'8 gis gis gis a b |
         fis16 dis fis e fis dis r dis fis e fis dis |
         a'4. e'8 dis dis |
-        dis2. |
+        b2. |
       }
 
       \repeat volta 2 {
-        gis,16 e gis e gis e gis8 a b |
+        gis16 e gis e gis e gis8 a b |
         fis16 dis fis e fis dis fis8 a b |
         cis4. e8 dis dis |
         b2. |
