@@ -6,7 +6,7 @@
     in {
       packages.x86_64-linux.default = pkgs.stdenv.mkDerivation {
         pname = "your-hand-in-mine";
-        version = "0.0.1";
+        version = "0.0.2";
 
         src = self;
 
