@@ -3,8 +3,9 @@ name: Nix build
 on:
   pull_request:
   push:
-permissions:
-  contents: write
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +16,7 @@ jobs:
         uses: cachix/install-nix-action@v31
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build
+      - name: Nix build
         run: nix build
       - name: Release
         uses: softprops/action-gh-release@v3
